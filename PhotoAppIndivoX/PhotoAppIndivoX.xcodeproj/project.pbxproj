@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B15253C1550A8B4008ABF76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15253B1550A8B4008ABF76 /* UIKit.framework */; };
+		3B15253E1550A8B4008ABF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15253D1550A8B4008ABF76 /* Foundation.framework */; };
+		3B1525401550A8B4008ABF76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15253F1550A8B4008ABF76 /* CoreGraphics.framework */; };
+		3B1525461550A8B4008ABF76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1525441550A8B4008ABF76 /* InfoPlist.strings */; };
+		3B1525481550A8B4008ABF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1525471550A8B4008ABF76 /* main.m */; };
+		3B15254C1550A8B4008ABF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B15254B1550A8B4008ABF76 /* AppDelegate.m */; };
+		3B15254F1550A8B5008ABF76 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B15254D1550A8B5008ABF76 /* MainStoryboard_iPhone.storyboard */; };
+		3B1525521550A8B5008ABF76 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1525501550A8B5008ABF76 /* MainStoryboard_iPad.storyboard */; };
+		3B1525551550A8B5008ABF76 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1525541550A8B5008ABF76 /* FirstViewController.m */; };
+		3B1525571550A8B5008ABF76 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1525561550A8B5008ABF76 /* first.png */; };
+		3B1525591550A8B5008ABF76 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1525581550A8B5008ABF76 /* first@2x.png */; };
+		3B15255C1550A8B5008ABF76 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B15255B1550A8B5008ABF76 /* SecondViewController.m */; };
+		3B15255E1550A8B5008ABF76 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B15255D1550A8B5008ABF76 /* second.png */; };
+		3B1525601550A8B5008ABF76 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B15255F1550A8B5008ABF76 /* second@2x.png */; };
+		3B1525681550A8B5008ABF76 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1525671550A8B5008ABF76 /* SenTestingKit.framework */; };
+		3B1525691550A8B5008ABF76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15253B1550A8B4008ABF76 /* UIKit.framework */; };
+		3B15256A1550A8B5008ABF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15253D1550A8B4008ABF76 /* Foundation.framework */; };
+		3B1525721550A8B5008ABF76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1525701550A8B5008ABF76 /* InfoPlist.strings */; };
+		3B1525751550A8B5008ABF76 /* PhotoAppIndivoXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1525741550A8B5008ABF76 /* PhotoAppIndivoXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B15256B1550A8B5008ABF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15252E1550A8B4008ABF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1525361550A8B4008ABF76;
+			remoteInfo = PhotoAppIndivoX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B1525371550A8B4008ABF76 /* PhotoAppIndivoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAppIndivoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15253B1550A8B4008ABF76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B15253D1550A8B4008ABF76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B15253F1550A8B4008ABF76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B1525431550A8B4008ABF76 /* PhotoAppIndivoX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoAppIndivoX-Info.plist"; sourceTree = "<group>"; };
+		3B1525451550A8B4008ABF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1525471550A8B4008ABF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B1525491550A8B4008ABF76 /* PhotoAppIndivoX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoAppIndivoX-Prefix.pch"; sourceTree = "<group>"; };
+		3B15254A1550A8B4008ABF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B15254B1550A8B4008ABF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B15254E1550A8B5008ABF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3B1525511550A8B5008ABF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3B1525531550A8B5008ABF76 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3B1525541550A8B5008ABF76 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3B1525561550A8B5008ABF76 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		3B1525581550A8B5008ABF76 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		3B15255A1550A8B5008ABF76 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3B15255B1550A8B5008ABF76 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3B15255D1550A8B5008ABF76 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3B15255F1550A8B5008ABF76 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3B1525661550A8B5008ABF76 /* PhotoAppIndivoXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppIndivoXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1525671550A8B5008ABF76 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B15256F1550A8B5008ABF76 /* PhotoAppIndivoXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoAppIndivoXTests-Info.plist"; sourceTree = "<group>"; };
+		3B1525711550A8B5008ABF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1525731550A8B5008ABF76 /* PhotoAppIndivoXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAppIndivoXTests.h; sourceTree = "<group>"; };
+		3B1525741550A8B5008ABF76 /* PhotoAppIndivoXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAppIndivoXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1525341550A8B4008ABF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15253C1550A8B4008ABF76 /* UIKit.framework in Frameworks */,
+				3B15253E1550A8B4008ABF76 /* Foundation.framework in Frameworks */,
+				3B1525401550A8B4008ABF76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1525621550A8B5008ABF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1525681550A8B5008ABF76 /* SenTestingKit.framework in Frameworks */,
+				3B1525691550A8B5008ABF76 /* UIKit.framework in Frameworks */,
+				3B15256A1550A8B5008ABF76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B15252C1550A8B4008ABF76 = {
+			isa = PBXGroup;
+			children = (
+				3B1525411550A8B4008ABF76 /* PhotoAppIndivoX */,
+				3B15256D1550A8B5008ABF76 /* PhotoAppIndivoXTests */,
+				3B15253A1550A8B4008ABF76 /* Frameworks */,
+				3B1525381550A8B4008ABF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1525381550A8B4008ABF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1525371550A8B4008ABF76 /* PhotoAppIndivoX.app */,
+				3B1525661550A8B5008ABF76 /* PhotoAppIndivoXTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B15253A1550A8B4008ABF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B15253B1550A8B4008ABF76 /* UIKit.framework */,
+				3B15253D1550A8B4008ABF76 /* Foundation.framework */,
+				3B15253F1550A8B4008ABF76 /* CoreGraphics.framework */,
+				3B1525671550A8B5008ABF76 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B1525411550A8B4008ABF76 /* PhotoAppIndivoX */ = {
+			isa = PBXGroup;
+			children = (
+				3B15254A1550A8B4008ABF76 /* AppDelegate.h */,
+				3B15254B1550A8B4008ABF76 /* AppDelegate.m */,
+				3B15254D1550A8B5008ABF76 /* MainStoryboard_iPhone.storyboard */,
+				3B1525501550A8B5008ABF76 /* MainStoryboard_iPad.storyboard */,
+				3B1525531550A8B5008ABF76 /* FirstViewController.h */,
+				3B1525541550A8B5008ABF76 /* FirstViewController.m */,
+				3B1525561550A8B5008ABF76 /* first.png */,
+				3B1525581550A8B5008ABF76 /* first@2x.png */,
+				3B15255A1550A8B5008ABF76 /* SecondViewController.h */,
+				3B15255B1550A8B5008ABF76 /* SecondViewController.m */,
+				3B15255D1550A8B5008ABF76 /* second.png */,
+				3B15255F1550A8B5008ABF76 /* second@2x.png */,
+				3B1525421550A8B4008ABF76 /* Supporting Files */,
+			);
+			path = PhotoAppIndivoX;
+			sourceTree = "<group>";
+		};
+		3B1525421550A8B4008ABF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1525431550A8B4008ABF76 /* PhotoAppIndivoX-Info.plist */,
+				3B1525441550A8B4008ABF76 /* InfoPlist.strings */,
+				3B1525471550A8B4008ABF76 /* main.m */,
+				3B1525491550A8B4008ABF76 /* PhotoAppIndivoX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B15256D1550A8B5008ABF76 /* PhotoAppIndivoXTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B1525731550A8B5008ABF76 /* PhotoAppIndivoXTests.h */,
+				3B1525741550A8B5008ABF76 /* PhotoAppIndivoXTests.m */,
+				3B15256E1550A8B5008ABF76 /* Supporting Files */,
+			);
+			path = PhotoAppIndivoXTests;
+			sourceTree = "<group>";
+		};
+		3B15256E1550A8B5008ABF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B15256F1550A8B5008ABF76 /* PhotoAppIndivoXTests-Info.plist */,
+				3B1525701550A8B5008ABF76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1525361550A8B4008ABF76 /* PhotoAppIndivoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1525781550A8B5008ABF76 /* Build configuration list for PBXNativeTarget "PhotoAppIndivoX" */;
+			buildPhases = (
+				3B1525331550A8B4008ABF76 /* Sources */,
+				3B1525341550A8B4008ABF76 /* Frameworks */,
+				3B1525351550A8B4008ABF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoAppIndivoX;
+			productName = PhotoAppIndivoX;
+			productReference = 3B1525371550A8B4008ABF76 /* PhotoAppIndivoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B1525651550A8B5008ABF76 /* PhotoAppIndivoXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B15257B1550A8B5008ABF76 /* Build configuration list for PBXNativeTarget "PhotoAppIndivoXTests" */;
+			buildPhases = (
+				3B1525611550A8B5008ABF76 /* Sources */,
+				3B1525621550A8B5008ABF76 /* Frameworks */,
+				3B1525631550A8B5008ABF76 /* Resources */,
+				3B1525641550A8B5008ABF76 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B15256C1550A8B5008ABF76 /* PBXTargetDependency */,
+			);
+			name = PhotoAppIndivoXTests;
+			productName = PhotoAppIndivoXTests;
+			productReference = 3B1525661550A8B5008ABF76 /* PhotoAppIndivoXTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B15252E1550A8B4008ABF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 3B1525311550A8B4008ABF76 /* Build configuration list for PBXProject "PhotoAppIndivoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B15252C1550A8B4008ABF76;
+			productRefGroup = 3B1525381550A8B4008ABF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1525361550A8B4008ABF76 /* PhotoAppIndivoX */,
+				3B1525651550A8B5008ABF76 /* PhotoAppIndivoXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1525351550A8B4008ABF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1525461550A8B4008ABF76 /* InfoPlist.strings in Resources */,
+				3B15254F1550A8B5008ABF76 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3B1525521550A8B5008ABF76 /* MainStoryboard_iPad.storyboard in Resources */,
+				3B1525571550A8B5008ABF76 /* first.png in Resources */,
+				3B1525591550A8B5008ABF76 /* first@2x.png in Resources */,
+				3B15255E1550A8B5008ABF76 /* second.png in Resources */,
+				3B1525601550A8B5008ABF76 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1525631550A8B5008ABF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1525721550A8B5008ABF76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B1525641550A8B5008ABF76 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1525331550A8B4008ABF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1525481550A8B4008ABF76 /* main.m in Sources */,
+				3B15254C1550A8B4008ABF76 /* AppDelegate.m in Sources */,
+				3B1525551550A8B5008ABF76 /* FirstViewController.m in Sources */,
+				3B15255C1550A8B5008ABF76 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1525611550A8B5008ABF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1525751550A8B5008ABF76 /* PhotoAppIndivoXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B15256C1550A8B5008ABF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1525361550A8B4008ABF76 /* PhotoAppIndivoX */;
+			targetProxy = 3B15256B1550A8B5008ABF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B1525441550A8B4008ABF76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1525451550A8B4008ABF76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B15254D1550A8B5008ABF76 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B15254E1550A8B5008ABF76 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1525501550A8B5008ABF76 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1525511550A8B5008ABF76 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1525701550A8B5008ABF76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1525711550A8B5008ABF76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1525761550A8B5008ABF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B1525771550A8B5008ABF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1525791550A8B5008ABF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoAppIndivoX/PhotoAppIndivoX-Prefix.pch";
+				INFOPLIST_FILE = "PhotoAppIndivoX/PhotoAppIndivoX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B15257A1550A8B5008ABF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoAppIndivoX/PhotoAppIndivoX-Prefix.pch";
+				INFOPLIST_FILE = "PhotoAppIndivoX/PhotoAppIndivoX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B15257C1550A8B5008ABF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoAppIndivoX.app/PhotoAppIndivoX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoAppIndivoX/PhotoAppIndivoX-Prefix.pch";
+				INFOPLIST_FILE = "PhotoAppIndivoXTests/PhotoAppIndivoXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3B15257D1550A8B5008ABF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoAppIndivoX.app/PhotoAppIndivoX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoAppIndivoX/PhotoAppIndivoX-Prefix.pch";
+				INFOPLIST_FILE = "PhotoAppIndivoXTests/PhotoAppIndivoXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1525311550A8B4008ABF76 /* Build configuration list for PBXProject "PhotoAppIndivoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1525761550A8B5008ABF76 /* Debug */,
+				3B1525771550A8B5008ABF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1525781550A8B5008ABF76 /* Build configuration list for PBXNativeTarget "PhotoAppIndivoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1525791550A8B5008ABF76 /* Debug */,
+				3B15257A1550A8B5008ABF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B15257B1550A8B5008ABF76 /* Build configuration list for PBXNativeTarget "PhotoAppIndivoXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15257C1550A8B5008ABF76 /* Debug */,
+				3B15257D1550A8B5008ABF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B15252E1550A8B4008ABF76 /* Project object */;
+}
