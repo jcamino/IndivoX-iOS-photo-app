@@ -465,6 +465,7 @@
 				3B15257A1550A8B5008ABF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B15257B1550A8B5008ABF76 /* Build configuration list for PBXNativeTarget "PhotoAppIndivoXTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				3B15257D1550A8B5008ABF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
