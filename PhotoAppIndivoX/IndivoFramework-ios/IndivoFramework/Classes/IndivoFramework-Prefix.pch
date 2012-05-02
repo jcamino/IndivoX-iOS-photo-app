@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'IndivoFramework' target in the 'IndivoFramework' project
+//
+
+#ifdef __OBJC__
+#	import <Foundation/Foundation.h>
+#endif
+
+// DLog only displays if -DDEBUG is set, ALog always displays output regardless of the DEBUG setting
+#ifdef INDIVO_DEBUG
+# define DLog(fmt, ...) NSLog((@"%s (line %d) " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define DLog(...) do { } while (0)
+#endif
+#define ALog(fmt, ...) NSLog((@"%s (line %d) " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+// Make localization easy
+#define L_(s) NSLocalizedString(s, nil)
+#define L_2(s, c) NSLocalizedString(s, c)
+
+// MPOAuth
+#ifndef MPLog
+#	ifdef MPOAUTH_DEBUG
+#		define MPLog(fmt, ...) NSLog((@"%s (line %d) " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#	else
+#		define MPLog(...) 
+#	endif
+#endif
